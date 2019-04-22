@@ -1,7 +1,7 @@
 const navItems = document.querySelectorAll("header nav ul li a");
 let container = document.querySelector(".containerr");
 
-let path = "http://localhost:8888/php/cai-hot-topics/content/home.html";
+let path = "https://cyndicai.github.io/hot-topics/content/home.html";
 
 function handleClick(ev){
     ev.preventDefault();
