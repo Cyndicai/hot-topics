@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo|Noto+Serif');
+
+
+/*color
+
+#f9966b
+#ffffff
+#28a745
+#313638
+#4C4C47
+#393e41
+
+*/
+
+/* Navigation bar*/
+
+.navbar-nav{
+	text-align: center;
+	margin-left:auto;
+	margin-left:auto;
+}
+
+.navbar-nav li{
+	padding:15px;
+	padding-left:100px;
+    padding-right:100px;
+}
+
+
+.bg-light{
+	background-color:#f9966b !important;
+	padding:2px;
+}
+
+a.nav-link{
+	font-family: 'Heebo', sans-serif;
+	font-size:30px;
+	color: #ffffff !important;
+}
+
+a.nav-link:hover{
+	background-color:#28a745 !important;
+	border:1px solid #28a745;
+}
+
+
+/*logo area */
+
+.bird{
+    margin-bottom:0;
+}
+
+.bird img{
+    width:200px;
+    height:auto;
+}
+
+/*masthead section*/
+.masthead-bg {
+    clear:both;
+    padding: 10% 0;  
+    background:url(../img/desert.jpg);
+    background-size:cover;
+}
+
+#tag-line{
+    color:#313638;
+    text-align:center;
+    font-size:20px;
+    font-family: 'Noto Serif', serif;
+}
+
+/* article area */
+
+.article h1{
+    font-family: 'Noto Serif', serif;
+    font-size:20px;
+    padding-bottom:10px;
+    color:#313638;
+}
+
+.article p{
+    line-height: 1.5;
+    font-size:0.75rem;
+    font-family: 'Heebo', sans-serif;
+    color:#4C4C47;
+    
+}
+.article img:hover{
+	animation: top 1s;
+}
+
+@keyframes top{
+	0%{ transform:translateY(0); }
+	50%{ transform:translateY(-1em); }
+	100%{ transform:translateY(0); }
+}
+
+/*Portfolio*/
+
+.portfolio-text h1{
+    text-align:center;
+    padding-top:20px;
+    font-family: 'Noto Serif', serif;
+    color:#313638;
+    font-size:20px;
+}
+
+.card{
+        margin-top:40px;
+}
+
+.card-body h1{
+        text-align:center;
+        font-size:0.75rem;
+        font-family: 'Heebo', sans-serif;
+        color:#4C4C47;
+        margin:0 auto;
+}
+
+.card-img-top:hover{
+	animation: top 1s;
+}
+
+@keyframes top{
+	0%{ transform:translateY(0); }
+	50%{ transform:translateY(-1em); }
+	100%{ transform:translateY(0); }
+}
+
+/* footer */
+footer{
+	font-family: 'Heebo', sans-serif;
+    color:#4C4C47;
+    font-size:0.75rem;
+
+}
+
+.subscribe h4{
+	color:#393e41;
+	font-weight:bold;
+	font-family: 'Noto Serif', serif;
+    font-size:0.75rem;
+}
+
+footer form input[type="submit"] {
+	background-color: #f9966b;
+	color:#fff;
+    font-size:0.75rem;
+}
+
+footer form input[type="submit"]:hover {
+	background-color: #f9966b;
+	color:#fff;
+}
+
+.hyperlink{
+	color:#f9966b;
+}
+
+.twitter,.facebook,.instagram,.linkedin{
+	color:#f9966b;
+}
+
+
+/* media queriies */
+
+/*desktop*/
+@media screen and (min-width:35rem) {
+
+/*logo area */
+
+.bird{
+    margin-bottom:0;
+    }
+
+.bird img{
+    width:300px;
+    height:auto;
+    }
+
+/* Masthead */
+    
+ #tag-line{
+    font-size:40px;
+    }   
+
+/* main area */
+.article{
+    width:100%;
+    }
+    
+.article h1{
+    font-family: 'Noto Serif', serif;
+    font-size:35px;
+    }
+    
+.article p{
+        line-height: 1.5;
+        font-size:1.25rem;
+        float:right;
+        width:55%;
+    }
+
+.article img{
+    float:left;
+    width:40%;
+    margin-right:5%;   
+    }
+    
+/*Portfolio*/
+
+.portfolio-text h1{
+    text-align:center;
+    padding-top:40px;
+    font-size:35px;
+    }
+    
+.card{
+    margin-top:40px;
+    margin-bottom:40px;
+    }
+    
+.card-body h1{
+        text-align:center;
+        font-size:1.25rem;
+    }
+
+/*footer*/
+
+footer{
+	font-family: 'Heebo', sans-serif;
+    color:#4C4C47;
+    font-size:1.25rem;
+
+    }
+
+    .subscribe h4{
+
+    font-size:1.25rem;
+    }
+
+footer form input[type="submit"] {
+
+    font-size:1.25rem;
+    }
+
+}
+
+/*tablet*/
+
+@media only screen and (min-width: 30rem) and (max-width:80rem) { 
+
+/* Masthead */
+ #tag-line{
+    font-size:25px;
+    } 
+
+/* main area */
+.article p{
+
+    width:100%;
+    float:none;
+    line-height: 1.5;
+    font-size:1rem;
+
+    }
+    
+.article h1{
+    font-family: 'Noto Serif', serif;
+    font-size:25px;
+    }
+    
+/*Portfolio*/
+
+.portfolio-text h1{
+    text-align:center;
+    padding-top:25px;
+    font-size:18px;
+    }
+    
+.card{
+        margin-top:40px;
+    }
+    
+.card-body h1{
+        text-align:center;
+        font-size:1rem;
+    }
+    
+
+/* footer */
+
+footer{
+	font-family: 'Heebo', sans-serif;
+    color:#4C4C47;
+    font-size:1rem;
+
+    }
+
+.subscribe h4{
+
+    font-size:1rem;
+    }
+
+footer form input[type="submit"] {
+
+    font-size:1rem;
+    }
+    
+}
